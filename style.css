@@ -9,10 +9,10 @@ body {
 }
 
 .btn {
-    padding: 24px 48px;
+    padding: 8px 32px;
     border: none;
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     color: #f9faf8;
 }
@@ -33,7 +33,7 @@ footer {
 /* //////////////////// HERO /////////////////////////// */
 
 header {
-    height: 60vh;
+    height: 75vh;
 
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ ul {
 
 .nav-link,
 .hero-text {
-    font-size: 20px;
+    font-size: 18px;
     color: #e5e7eb;
     line-height: 1.5;
 }
@@ -75,15 +75,15 @@ ul {
 .hero-heading {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900;
-    line-height: 1;
-    margin-bottom: 12px;
+    font-weight: 700;
+    line-height: .9;
+    margin-bottom: 8px;
 }
 
 .hero-text {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 .btn--full {
@@ -97,13 +97,11 @@ ul {
 
 /* /////////////////////////////////////////////////////// */
 
-/* //////////////////// SOME RANDOM INFO /////////////////////////// */
-.some-random-info {
+/* //////////////////// DESIGNS /////////////////////////// */
+.designs {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-left: 288px;
-    padding-right: 288px; */
     gap: 36px;
 }
 
@@ -129,14 +127,14 @@ h2 {
 
 .figure > div {
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background-position: center;
     background-size: cover;
 }
 
 figcaption {
-    font-size: 20px;
+    font-size: 18px;
     color: #1f2937;
 }
 
@@ -201,14 +199,14 @@ blockquote + figcaption {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
     margin-bottom: 8px;
 }
 
 h3 + p {
-    font-size: 24px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -229,5 +227,5 @@ footer {
 
 footer > p {
     color: #f9faf8;
-    font-size: 20px;
+    font-size: 18px;
 }

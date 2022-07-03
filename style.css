@@ -36,13 +36,14 @@ footer {
 
 /* //////////////////// HERO /////////////////////////// */
 
-header {
+header.section-padding {
     height: 75vh;
+    padding-top: 24px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 48px;
+    gap: 12px;
 }
 
 nav {
